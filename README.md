@@ -47,7 +47,7 @@ Este projeto é um clone simplificado do ChatGPT, desenvolvido com o backend em 
 6. Abra o navegador e acesse a aplicação no endereço:
    http://localhost:3000
 
-# README implementado com o auxílio de IA.
+#### README implementado com o auxílio de IA.
 
 
 
