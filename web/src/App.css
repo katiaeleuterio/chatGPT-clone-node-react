@@ -49,8 +49,7 @@
   flex: 1;
   background-color: #353541;
   overflow-y: auto;
-  padding-bottom: 80px; /* Espaço reservado para a caixa de entrada */
-  box-sizing: border-box; /* Inclui padding e border na largura total */
+  position: relative;
 }
 
 /* Caixa de entrada fixada na parte inferior */
@@ -66,7 +65,9 @@
 /* Estilo da área de texto da entrada */
 .chat-input-textarea {
   background-color: #40414f;
-  width: calc(100% - 24px); /* Reduz a largura para deixar espaço para bordas e padding */
+  width: calc(
+    100% - 24px
+  ); /* Reduz a largura para deixar espaço para bordas e padding */
   padding: 12px;
   color: white;
   font-size: 1.5em;
@@ -101,7 +102,7 @@
   box-sizing: border-box;
   white-space: pre-wrap;
   overflow-wrap: break-word;
-  }
+}
 
 .message {
   padding: 10px; /* Ajuste o padding para evitar sobreposição */
